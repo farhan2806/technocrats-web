@@ -13,13 +13,13 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Home", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "/" },
+  { label: "Events", href: "/events" },
+  { label: "Blogs", href: "/blogs" },
+  { label: "Members", href: "/members" },
 ];
 
-export const testimonials = [
+export const members = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
@@ -97,7 +97,7 @@ export const features = [
   },
 ];
 
-export const checklistItems = [
+export const events = [
   {
     title: "Code merge made easy",
     description:
@@ -120,7 +120,7 @@ export const checklistItems = [
   },
 ];
 
-export const pricingOptions = [
+export const blogs = [
   {
     title: "Free",
     price: "$0",
