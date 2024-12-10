@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-[#d4a373] ">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-[#d4a373] bg-[#faedcd]">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
@@ -20,20 +20,20 @@ const Navbar = () => {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12 text-[#d4a373]">
             {navItems.map((item, index) => (
-              <li key={index}>
+              <li className="hover:text-[#ccd5ae]" key={index}>
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md text-[#d4a373]" >
+            <a href="#" className="py-2 px-3 border rounded-md bg-[#d4a373] hover:bg-[#e9edc9]" >
               Sign In
             </a>
             <a
               href="#"
-              className="bg-gradient-to-r from-[#d4a373] to-[#faedcd] py-2 px-3 rounded-md "
+              className="bg-gradient-to-r bg-[#d4a373] hover:bg-[#e9edc9] py-2 px-3 rounded-md "
             >
-              Create an account
+              Sign Up
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">

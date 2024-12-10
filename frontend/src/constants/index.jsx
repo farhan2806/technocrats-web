@@ -16,10 +16,10 @@ export const navItems = [
   { label: "Home", href: "/" },
   { label: "Events", href: "/events" },
   { label: "Blogs", href: "/blogs" },
-  { label: "Members", href: "/members" },
+  { label: "Vision", href: "/vision" },
 ];
 
-export const members = [
+export const vision = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
